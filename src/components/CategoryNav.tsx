@@ -6,7 +6,7 @@ function CategoryNav() {
   
   // Set the active tab based on the current URL path.
   // If the path isn't recognized, fallback to false or the home path.
-  const currentTab = ['/', '/about', '/contact', '/projects'].includes(location.pathname) 
+  const currentTab = ['/', '/about', '/contact', '/projects', '/fitness'].includes(location.pathname) 
     ? location.pathname 
     : '/';
 
@@ -26,6 +26,7 @@ function CategoryNav() {
             <Tab label="About" value="/about" component={Link} to="/about" />
             <Tab label="Contact" value="/contact" component={Link} to="/contact" />
             <Tab label="Projects" value="/projects" component={Link} to="/projects" />
+            <Tab label="Fitness" value="/fitness" component={Link} to="/fitness" />
           </Tabs>
         </Box>
       </Toolbar>
