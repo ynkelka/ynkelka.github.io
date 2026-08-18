@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Card, CardContent, CardMedia, Typography, Button, Grid } from '@mui/material';
 import hevyImg from "../assets/hevy.png"
-import stravaImg from "../assets/strava.png"
+import stravaImg from "../assets/strava-2.svg"
 
 // Define the shape of your fitness network data
 interface FitnessNetwork {
