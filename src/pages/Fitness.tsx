@@ -1,5 +1,7 @@
 import React from 'react';
 import { Box, Card, CardContent, CardMedia, Typography, Button, Grid } from '@mui/material';
+import hevyImg from "../assets/hevy.png"
+import stravaImg from "../assets/strava.png"
 
 // Define the shape of your fitness network data
 interface FitnessNetwork {
@@ -13,13 +15,13 @@ const fitnessData: FitnessNetwork[] = [
     {
     title: 'Hevy',
     description: 'Add me on Hevy',
-    qrImage: '/src/assets/hevy.png',
+    qrImage: hevyImg,
     profileUrl: 'https://hevy.com/user/ykelkar',
   },
   {
     title: 'Strava',
     description: 'Add me on Strava',
-    qrImage: '/src/assets/strava-2.svg',
+    qrImage: stravaImg,
     profileUrl: 'https://strava.app.link/MdRWtracF5b',
   },
   
