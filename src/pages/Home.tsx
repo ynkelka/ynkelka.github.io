@@ -1,4 +1,3 @@
-//import React from 'react';
 import { 
   Container, Box, Typography, Grid, 
   Stack, useTheme, alpha 
@@ -15,7 +14,6 @@ export default function Home() {
       bgcolor: 'background.default',
       position: 'relative'
     }}>
-      {/* Muted ambient backdrop light */}
       <Box sx={{
         position: 'absolute',
         top: '20%',
@@ -30,11 +28,9 @@ export default function Home() {
 
       <Container maxWidth="md" sx={{ position: 'relative', zIndex: 1, py: { xs: 8, md: 14 } }}>
         <Grid container spacing={4}>
-          <Grid sx={{
-            xs: 12}} >
+          <Grid size={{ xs: 12 }}>
             <Stack spacing={4}>
               
-              {/* Minimalist Subheading */}
               <Typography 
                 variant="subtitle2" 
                 color="text.secondary" 
@@ -42,8 +38,6 @@ export default function Home() {
               >
                 Yash Kelkar &mdash; Embedded Software Engineer
               </Typography>
-              
-              {/* Refined Headline */}
               <Typography 
                 variant="h2" 
                 sx={{ 
@@ -57,7 +51,6 @@ export default function Home() {
                 Architecting custom operating systems for embedded hardware.
               </Typography>
 
-              {/* Restrained, Accurate Technical Copy */}
               <Typography 
                 variant="body1" 
                 color="text.secondary" 
