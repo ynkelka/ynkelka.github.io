@@ -3,7 +3,6 @@ import { Box, Card, CardContent, CardMedia, Typography, Button, Grid } from '@mu
 import hevyImg from "../assets/hevy.png"
 import stravaImg from "../assets/strava-2.svg"
 
-// Define the shape of your fitness network data
 interface FitnessNetwork {
   title: string;
   description: string;
