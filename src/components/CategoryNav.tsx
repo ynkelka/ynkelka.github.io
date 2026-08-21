@@ -14,7 +14,6 @@ function CategoryNav() {
     <AppBar position="static" color="default" elevation={1}>
       <Toolbar>
         <Typography variant="h6" sx={{ flexGrow: 1, fontWeight: 'bold' }}>
-          Yash Kelkar
         </Typography>
         <Box>
           <Tabs 
@@ -25,8 +24,9 @@ function CategoryNav() {
             <Tab label="Home" value="/" component={Link} to="/" />
             <Tab label="About" value="/about" component={Link} to="/about" />
             <Tab label="Contact" value="/contact" component={Link} to="/contact" />
-            <Tab label="Projects" value="/projects" component={Link} to="/projects" />
             <Tab label="Fitness" value="/fitness" component={Link} to="/fitness" />
+            <Tab label="Projects" value="/projects" component={Link} to="/projects" />
+            
           </Tabs>
         </Box>
       </Toolbar>
